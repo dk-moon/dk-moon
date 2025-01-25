@@ -2,6 +2,23 @@
 
 ![header](https://capsule-render.vercel.app/api?type=venom&color=auto&height=300&section=header&text=Moon%20Dongkyu&animation=fadeIn&fontSize=90)
 
+---
+## Work
+- DaekyoCNS. IT Lab. AI Researcher | 2024.11 ~
+- BRFrame. Data Scientist | 2020.06 ~ 2023.02
+
+## Education
+- 단국대학교 인공지능융합학과 인공지능 석사 | 2022.03 ~ 2024.08
+Dankook Univ. Master's degree in Artificial Intelligence, Department of Artificial Intelligence Convergence | 2022.03 ~ 2024.08
+
+- 대진대학교 전기전자공학부 전자공학 공학사 | 2014.03 ~ 2020.02
+Daejin Univ. Bachelor of Engineering, Department of Electrical and Electronic Engineering | 2014.03 ~ 2020.02
+
+## Activities
+- 
+
+---
+
 ## Overview
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dk-moon&layout=compact&theme=blue-green)
@@ -22,5 +39,5 @@
 <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
 
 ### Cloud
-<img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white"/>
+<img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white"/> </t>
 <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
