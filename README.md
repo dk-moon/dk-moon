@@ -4,7 +4,7 @@
 
 ---
 ## Work
-- **DaekyoCNS. IT Lab. AI Researcher | 2024.11 ~**
+- **DaekyoCNS. IT Lab. AI Researcher | 2024.11 ~ **
 - **BRFrame. Data Scientist | 2020.06 ~ 2023.02**
 
 ## Education
