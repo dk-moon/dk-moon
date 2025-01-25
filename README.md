@@ -9,9 +9,11 @@
 
 ## Education
 > 단국대학교 인공지능융합학과 인공지능 석사 | 2022.03 ~ 2024.08
+> 
 > Dankook Univ. Master's degree in Artificial Intelligence, Department of Artificial Intelligence Convergence | 2022.03 ~ 2024.08
 
 > 대진대학교 전기전자공학부 전자공학 공학사 | 2014.03 ~ 2020.02
+> 
 > Daejin Univ. Bachelor of Engineering, Department of Electrical and Electronic Engineering | 2014.03 ~ 2020.02
 
 ## Activities
