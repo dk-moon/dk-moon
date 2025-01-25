@@ -1,6 +1,6 @@
 ## 🧑🏻‍💻 Dongkyu Moon
 
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=MoonDongkyu&animation=fadeIn&fontSize=90)
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=Moon Dong kyu&animation=fadeIn&fontSize=90)
 
 <br/>
 ## Overview
