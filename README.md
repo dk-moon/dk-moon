@@ -4,20 +4,22 @@
 
 ---
 ## Work
-- ==DaekyoCNS. IT Lab. AI Researcher | 2024.11 ~==
-- ==BRFrame. Data Scientist | 2020.06 ~ 2023.02==
+- **DaekyoCNS. IT Lab. AI Researcher | 2024.11 ~**
+- **BRFrame. Data Scientist | 2020.06 ~ 2023.02**
 
 ## Education
-> 단국대학교 인공지능융합학과 인공지능 석사 | 2022.03 ~ 2024.08
+> **단국대학교 인공지능융합학과 인공지능 석사 | 2022.03 ~ 2024.08**
 > 
 > Dankook Univ. Master's degree in Artificial Intelligence, Department of Artificial Intelligence Convergence | 2022.03 ~ 2024.08
 
-> 대진대학교 전기전자공학부 전자공학 공학사 | 2014.03 ~ 2020.02
+> **대진대학교 전기전자공학부 전자공학 공학사 | 2014.03 ~ 2020.02**
 > 
 > Daejin Univ. Bachelor of Engineering, Department of Electrical and Electronic Engineering | 2014.03 ~ 2020.02
 
 ## Activities
-- 
+- KT Aivle School AI Track 5기 | 2024.02 ~ 2024.08
+- 한양대학교 산학협력단 프로젝트형 머신러닝을 이용한 빅데이터 전문가 양성과정 | 2019.12 ~ 2020.06
+- KT&G 상상Volumteer 15기 | 2018.02 ~ 2018.08
 
 ---
 
@@ -43,3 +45,7 @@
 ### Cloud
 <img src="https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white"/> </t>
 <img src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+
+---
+## Contact Me
+📧 dkmoon0530@gmail.com
