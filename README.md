@@ -2,6 +2,15 @@
 
 ![header](https://capsule-render.vercel.app/api?type=venom&color=auto&height=300&section=header&text=Moon%20Dongkyu&animation=fadeIn&fontSize=90)
 
+#### Interest
+- **Computer Vision, Large Language Model, Multi Modality**
+
+#### Paper
+> 선형 회귀 및 객체 검출을 이용한 열처리 공정에서의 내부 제품 배치 연구
+> 
+> A Study on internal product placement in heat treatment process using linear regression and object detection
+- https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11704102 
+
 ---
 ## Work
 - **DaekyoCNS. IT Lab. AI Researcher | 2024.11 ~ current**
