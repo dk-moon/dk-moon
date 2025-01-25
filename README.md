@@ -4,8 +4,8 @@
 
 ---
 ## Work
-- DaekyoCNS. IT Lab. AI Researcher | 2024.11 ~
-- BRFrame. Data Scientist | 2020.06 ~ 2023.02
+- ==DaekyoCNS. IT Lab. AI Researcher | 2024.11 ~==
+- ==BRFrame. Data Scientist | 2020.06 ~ 2023.02==
 
 ## Education
 > 단국대학교 인공지능융합학과 인공지능 석사 | 2022.03 ~ 2024.08
