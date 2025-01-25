@@ -2,8 +2,22 @@
 
 ![header](https://capsule-render.vercel.app/api?type=venom&color=auto&height=300&section=header&text=Moon%20Dongkyu&animation=fadeIn&fontSize=90)
 
-#### Interest
-- **Computer Vision, Large Language Model, Multi Modality**
+#### Interest Keyword & Studying
+- **Computer Vision**
+  - Vision Transformer, DE:TR, SAM, U2-Net, MOTR etc.
+
+- **Multi Modality**
+  - AutoAVSR etc.
+
+- **Language Model**
+  - Llama, Phi, GPT, DeepSeak etc.
+  - Native RAG, Advanced RAG, Modular RAG, Dify etc.
+
+- **Voice Conversion**
+  - VITS, RVC, Tacotroon etc.
+
+- **Etc**
+  - GenCast etc.
 
 #### Paper
 > 선형 회귀 및 객체 검출을 이용한 열처리 공정에서의 내부 제품 배치 연구 - 한국데이터정보과학회. KCI 우수등재.
