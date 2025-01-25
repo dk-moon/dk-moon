@@ -6,10 +6,14 @@
 - **Computer Vision, Large Language Model, Multi Modality**
 
 #### Paper
-> 선형 회귀 및 객체 검출을 이용한 열처리 공정에서의 내부 제품 배치 연구
+> 선형 회귀 및 객체 검출을 이용한 열처리 공정에서의 내부 제품 배치 연구 - 한국데이터정보과학회. KCI 우수등재.
 > 
 > A Study on internal product placement in heat treatment process using linear regression and object detection
-- https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11704102 
+- https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE11704102
+
+> 강건한 혼합효과 신경망을 이용한 시선 추정 - 단국대학교. 석사학위논문
+>
+> RAMENN: Gaze Estimation with Robust Mixed Effect Neural Network
 
 ---
 ## Work
