@@ -1,0 +1,254 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="auto" viewBox="0 0 1180 610" role="img" aria-labelledby="title desc">
+  <title id="title">Dongkyu Moon — AI Researcher and Computer Vision Engineer</title>
+  <desc id="desc">Animated dark GitHub profile banner with an ASCII avatar, professional terminal, profile details, and technology skills.</desc>
+
+  <defs>
+    <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#030712"/>
+      <stop offset="0.5" stop-color="#070B17"/>
+      <stop offset="1" stop-color="#030712"/>
+    </linearGradient>
+
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111A31" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#0B1224" stop-opacity=".86"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset=".48" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#10B981"/>
+      <animate attributeName="x1" values="-40%;100%;-40%" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="60%;200%;60%" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="asciiGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset=".45" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#34D399"/>
+      <animate attributeName="x1" values="-100%;100%;-100%" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;200%;0%" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="shimmer" gradientUnits="userSpaceOnUse" x1="-260" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#67E8F9" stop-opacity=".65"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+      <animate attributeName="x1" values="-260;1180" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;1440" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#22D3EE" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="reflection" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".13"/>
+      <stop offset=".42" stop-color="#FFFFFF" stop-opacity=".02"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="blueGlow">
+      <stop offset="0" stop-color="#2563EB" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="violetGlow">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity=".17"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="emeraldGlow">
+      <stop offset="0" stop-color="#10B981" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#10B981" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#000000" flood-opacity=".42"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="noise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".78" numOctaves="3" seed="8">
+        <animate attributeName="baseFrequency" values=".76;.82;.76" dur="12s" repeatCount="indefinite"/>
+      </feTurbulence>
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 .035 0"/>
+    </filter>
+
+    <clipPath id="frameClip"><rect x="10" y="10" width="1160" height="590" rx="32"/></clipPath>
+    <clipPath id="asciiClip"><rect x="35" y="35" width="405" height="540" rx="24"/></clipPath>
+
+    <clipPath id="role1"><rect x="510" y="159" height="34" width="360"><animate attributeName="width" values="0;0;360;360;0;0" keyTimes="0;.01;.09;.18;.19;1" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="role2"><rect x="510" y="159" height="34" width="0"><animate attributeName="width" values="0;0;330;330;0;0" keyTimes="0;.20;.28;.38;.39;1" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="role3"><rect x="510" y="159" height="34" width="0"><animate attributeName="width" values="0;0;350;350;0;0" keyTimes="0;.40;.48;.58;.59;1" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="role4"><rect x="510" y="159" height="34" width="0"><animate attributeName="width" values="0;0;370;370;0;0" keyTimes="0;.60;.68;.78;.79;1" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="role5"><rect x="510" y="159" height="34" width="0"><animate attributeName="width" values="0;0;320;320;0;0" keyTimes="0;.80;.88;.98;.99;1" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+  </defs>
+
+  <g clip-path="url(#frameClip)">
+    <rect width="1180" height="610" fill="url(#canvas)"/>
+
+    <circle cx="140" cy="80" r="300" fill="url(#blueGlow)">
+      <animate attributeName="cx" values="140;225;140" dur="15s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="80;145;80" dur="18s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1020" cy="105" r="330" fill="url(#violetGlow)">
+      <animate attributeName="cx" values="1020;940;1020" dur="17s" repeatCount="indefinite"/>
+      <animate attributeName="r" values="300;350;300" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="860" cy="570" r="280" fill="url(#emeraldGlow)">
+      <animate attributeName="cy" values="570;510;570" dur="16s" repeatCount="indefinite"/>
+    </circle>
+
+    <g fill="#A5F3FC" opacity=".22">
+      <circle cx="95" cy="105" r="1.5"><animate attributeName="cy" values="105;72;105" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values=".1;.7;.1" dur="6s" repeatCount="indefinite"/></circle>
+      <circle cx="300" cy="535" r="1"><animate attributeName="cy" values="535;490;535" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".1;.65;.1" dur="8s" repeatCount="indefinite"/></circle>
+      <circle cx="475" cy="95" r="1.5"><animate attributeName="cx" values="475;495;475" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values=".15;.75;.15" dur="7s" repeatCount="indefinite"/></circle>
+      <circle cx="1085" cy="205" r="1"><animate attributeName="cy" values="205;155;205" dur="9s" repeatCount="indefinite"/><animate attributeName="opacity" values=".1;.6;.1" dur="9s" repeatCount="indefinite"/></circle>
+      <circle cx="1035" cy="520" r="1.5"><animate attributeName="cx" values="1035;1070;1035" dur="10s" repeatCount="indefinite"/><animate attributeName="opacity" values=".1;.55;.1" dur="10s" repeatCount="indefinite"/></circle>
+      <circle cx="685" cy="75" r="1"><animate attributeName="cy" values="75;110;75" dur="7.5s" repeatCount="indefinite"/><animate attributeName="opacity" values=".1;.7;.1" dur="7.5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="35" y="35" width="405" height="540" rx="24" fill="url(#panel)" stroke="#FFFFFF" stroke-opacity=".075"/>
+      <rect x="460" y="35" width="685" height="540" rx="24" fill="url(#panel)" stroke="#FFFFFF" stroke-opacity=".075"/>
+    </g>
+
+    <path d="M35 59a24 24 0 0 1 24-24h357a24 24 0 0 1 24 24v62C335 91 182 75 35 143Z" fill="url(#reflection)" opacity=".48">
+      <animate attributeName="opacity" values=".28;.5;.28" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M460 59a24 24 0 0 1 24-24h637a24 24 0 0 1 24 24v58C930 72 689 86 460 150Z" fill="url(#reflection)" opacity=".38">
+      <animate attributeName="opacity" values=".22;.42;.22" dur="9s" repeatCount="indefinite"/>
+    </path>
+
+    <rect x="10.75" y="10.75" width="1158.5" height="588.5" rx="31.25" fill="none" stroke="#FFFFFF" stroke-opacity=".08" stroke-width="1.5"/>
+    <rect x="10.75" y="10.75" width="1158.5" height="588.5" rx="31.25" fill="none" stroke="url(#shimmer)" stroke-width="1.5"/>
+    <rect width="1180" height="610" filter="url(#noise)" opacity=".5" pointer-events="none"/>
+  </g>
+
+  <!-- ASCII terminal portrait -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <circle cx="66" cy="64" r="4" fill="#FB7185" opacity=".85"/>
+    <circle cx="80" cy="64" r="4" fill="#FBBF24" opacity=".85"/>
+    <circle cx="94" cy="64" r="4" fill="#34D399" opacity=".85"/>
+    <text x="118" y="69" fill="#64748B" font-size="11" letter-spacing="1.6">PROFILE / ASCII</text>
+    <text x="413" y="69" fill="#34D399" font-size="11" text-anchor="end">● ONLINE</text>
+
+    <g fill="url(#asciiGradient)" font-size="18.5" font-weight="600" filter="url(#glow)" xml:space="preserve">
+      <animateTransform attributeName="transform" type="translate" values="0 2;0 -5;0 2" dur="6s" repeatCount="indefinite"/>
+      <text x="75" y="145">          ╭──────────────╮<animate attributeName="opacity" from="0" to="1" dur=".35s" begin=".2s" fill="freeze"/></text>
+      <text x="75" y="171">       ╭──┤  ▄▀      ▀▄  ├──╮<animate attributeName="opacity" from="0" to="1" dur=".35s" begin=".4s" fill="freeze"/></text>
+      <text x="75" y="197">       │  │      ▄▄      │  │<animate attributeName="opacity" from="0" to="1" dur=".35s" begin=".6s" fill="freeze"/></text>
+      <text x="75" y="223">       │  │   ╰──────╯   │  │<animate attributeName="opacity" from="0" to="1" dur=".35s" begin=".8s" fill="freeze"/></text>
+      <text x="75" y="249">       ╰──┤              ├──╯<animate attributeName="opacity" from="0" to="1" dur=".35s" begin="1s" fill="freeze"/></text>
+      <text x="75" y="275">          ╰──────┬───────╯<animate attributeName="opacity" from="0" to="1" dur=".35s" begin="1.2s" fill="freeze"/></text>
+      <text x="75" y="301">             ╭───┴───╮<animate attributeName="opacity" from="0" to="1" dur=".35s" begin="1.4s" fill="freeze"/></text>
+      <text x="75" y="327">          ╭──┤  D M  ├──╮<animate attributeName="opacity" from="0" to="1" dur=".35s" begin="1.6s" fill="freeze"/></text>
+      <text x="75" y="353">        ╭─╯  │ AI·CV │  ╰─╮<animate attributeName="opacity" from="0" to="1" dur=".35s" begin="1.8s" fill="freeze"/></text>
+      <text x="75" y="379">       ╱     ╰───────╯     ╲<animate attributeName="opacity" from="0" to="1" dur=".35s" begin="2s" fill="freeze"/></text>
+      <text x="75" y="405">      ╰─────────────────────╯<animate attributeName="opacity" from="0" to="1" dur=".35s" begin="2.2s" fill="freeze"/></text>
+    </g>
+
+    <rect x="43" y="90" width="389" height="44" fill="url(#scan)" opacity=".95" clip-path="url(#asciiClip)">
+      <animate attributeName="y" values="86;510;86" dur="5.5s" repeatCount="indefinite"/>
+    </rect>
+
+    <g opacity="1">
+      <animate attributeName="opacity" from="0" to="1" dur=".5s" begin="2.45s" fill="freeze"/>
+      <text x="68" y="458" fill="#64748B" font-size="12">dongkyu@github</text>
+      <text x="174" y="458" fill="#475569" font-size="12">:</text>
+      <text x="183" y="458" fill="#A78BFA" font-size="12">~</text>
+      <text x="196" y="458" fill="#475569" font-size="12">$</text>
+      <text x="212" y="458" fill="#CBD5E1" font-size="12">build --with-curiosity</text>
+      <rect x="381" y="447" width="7" height="14" rx="1" fill="#22D3EE">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <g opacity="1">
+      <animate attributeName="opacity" from="0" to="1" dur=".5s" begin="2.8s" fill="freeze"/>
+      <rect x="67" y="490" width="164" height="32" rx="16" fill="#10B981" fill-opacity=".08" stroke="#34D399" stroke-opacity=".25"/>
+      <circle cx="86" cy="506" r="4" fill="#34D399" filter="url(#glow)"><animate attributeName="opacity" values=".45;1;.45" dur="2s" repeatCount="indefinite"/></circle>
+      <text x="100" y="510" fill="#A7F3D0" font-size="11" letter-spacing=".7">OPEN TO IDEAS</text>
+    </g>
+
+    <text x="68" y="548" fill="#475569" font-size="10" letter-spacing="1.2">RESEARCH  ·  ENGINEERING  ·  PRODUCT</text>
+  </g>
+
+  <!-- Professional terminal -->
+  <g font-family="Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <circle cx="490" cy="64" r="4" fill="#FB7185" opacity=".85"/>
+    <circle cx="504" cy="64" r="4" fill="#FBBF24" opacity=".85"/>
+    <circle cx="518" cy="64" r="4" fill="#34D399" opacity=".85"/>
+    <text x="543" y="69" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="1.6">DONGKYU — PROFILE</text>
+    <rect x="1066" y="55" width="49" height="19" rx="9.5" fill="#22D3EE" fill-opacity=".08" stroke="#22D3EE" stroke-opacity=".18"/>
+    <text x="1090.5" y="68.5" text-anchor="middle" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9" letter-spacing="1">LIVE</text>
+
+    <g opacity="1">
+      <animate attributeName="opacity" from="0" to="1" dur=".5s" begin=".25s" fill="freeze"/>
+      <text x="510" y="112" fill="#94A3B8" font-size="15" font-weight="500">Hi, there.</text>
+      <text x="510" y="149" fill="#F8FAFC" font-size="30" font-weight="700" letter-spacing="-.6">I'm </text>
+      <text x="568" y="149" fill="url(#accent)" font-size="30" font-weight="750" letter-spacing="-.6">Dongkyu Moon</text>
+    </g>
+
+    <g fill="#CFFAFE" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="16" font-weight="600">
+      <text x="510" y="184" clip-path="url(#role1)">Vision AI Researcher<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.18;.19;.99;1" dur="20s" repeatCount="indefinite"/></text>
+      <text x="510" y="184" clip-path="url(#role2)">AI Systems Builder<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.19;.20;.38;.39;1" dur="20s" repeatCount="indefinite"/></text>
+      <text x="510" y="184" clip-path="url(#role3)">Applied ML Engineer<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.39;.40;.58;.59;1" dur="20s" repeatCount="indefinite"/></text>
+      <text x="510" y="184" clip-path="url(#role4)">Multimodal AI Explorer<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.59;.60;.78;.79;1" dur="20s" repeatCount="indefinite"/></text>
+      <text x="510" y="184" clip-path="url(#role5)">Open Source Learner<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.79;.80;.98;.99;1" dur="20s" repeatCount="indefinite"/></text>
+      <rect x="876" y="168" width="8" height="19" rx="1" fill="#22D3EE" filter="url(#glow)">
+        <animate attributeName="opacity" values="1;0;1" dur=".85s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <line x1="510" y1="205" x2="1095" y2="205" stroke="#FFFFFF" stroke-opacity=".07"/>
+
+    <g font-size="12.5">
+      <g opacity="1"><animate attributeName="opacity" from="0" to="1" dur=".4s" begin=".9s" fill="freeze"/><circle cx="517" cy="228" r="3" fill="#8B5CF6"/><text x="533" y="232" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">LOCATION</text><text x="657" y="232" fill="#CBD5E1">Republic of Korea</text></g>
+      <g opacity="1"><animate attributeName="opacity" from="0" to="1" dur=".4s" begin="1.15s" fill="freeze"/><circle cx="517" cy="258" r="3" fill="#7C3AED"/><text x="533" y="262" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">EDUCATION</text><text x="657" y="262" fill="#CBD5E1">M.S. in Artificial Intelligence</text></g>
+      <g opacity="1"><animate attributeName="opacity" from="0" to="1" dur=".4s" begin="1.4s" fill="freeze"/><circle cx="517" cy="288" r="3" fill="#22D3EE"/><text x="533" y="292" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">FOCUS</text><text x="657" y="292" fill="#CBD5E1">Computer Vision · Multimodal AI</text></g>
+      <g opacity="1"><animate attributeName="opacity" from="0" to="1" dur=".4s" begin="1.65s" fill="freeze"/><circle cx="517" cy="318" r="3" fill="#14B8A6"/><text x="533" y="322" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">GITHUB</text><text x="657" y="322" fill="#CBD5E1">github.com/dk-moon</text></g>
+      <g opacity="1"><animate attributeName="opacity" from="0" to="1" dur=".4s" begin="1.9s" fill="freeze"/><circle cx="517" cy="348" r="3" fill="#10B981"/><text x="533" y="352" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">EMAIL</text><text x="657" y="352" fill="#CBD5E1">dkmoon0530@gmail.com</text></g>
+    </g>
+
+    <g opacity="1">
+      <animate attributeName="opacity" from="0" to="1" dur=".45s" begin="2.1s" fill="freeze"/>
+      <text x="510" y="389" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5" letter-spacing="1.8">TOOLBOX</text>
+      <line x1="580" y1="385" x2="1095" y2="385" stroke="#FFFFFF" stroke-opacity=".06"/>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" font-weight="600" text-anchor="middle">
+      <g id="pillPython" transform="translate(510 404)" opacity="1"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin="2.25s" fill="freeze"/><g transform="translate(42 15)"><g transform="translate(-42 -15)"><rect width="84" height="30" rx="15" fill="#7C3AED" fill-opacity=".09" stroke="#A78BFA" stroke-opacity=".22"/><text x="42" y="19" fill="#DDD6FE">Python</text></g><animateTransform attributeName="transform" type="scale" from="1" to="1.04" dur=".18s" begin="pillPython.mouseover" end="pillPython.mouseout" fill="freeze"/></g></g>
+      <g id="pillTorch" transform="translate(604 404)" opacity="1"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin="2.35s" fill="freeze"/><g transform="translate(43 15)"><g transform="translate(-43 -15)"><rect width="86" height="30" rx="15" fill="#8B5CF6" fill-opacity=".08" stroke="#C4B5FD" stroke-opacity=".2"/><text x="43" y="19" fill="#DDD6FE">PyTorch</text></g><animateTransform attributeName="transform" type="scale" from="1" to="1.04" dur=".18s" begin="pillTorch.mouseover" end="pillTorch.mouseout" fill="freeze"/></g></g>
+      <g id="pillTF" transform="translate(700 404)" opacity="1"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin="2.45s" fill="freeze"/><g transform="translate(49 15)"><g transform="translate(-49 -15)"><rect width="98" height="30" rx="15" fill="#2563EB" fill-opacity=".08" stroke="#60A5FA" stroke-opacity=".2"/><text x="49" y="19" fill="#BFDBFE">TensorFlow</text></g><animateTransform attributeName="transform" type="scale" from="1" to="1.04" dur=".18s" begin="pillTF.mouseover" end="pillTF.mouseout" fill="freeze"/></g></g>
+      <g id="pillVision" transform="translate(808 404)" opacity="1"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin="2.55s" fill="freeze"/><g transform="translate(58 15)"><g transform="translate(-58 -15)"><rect width="116" height="30" rx="15" fill="#0891B2" fill-opacity=".08" stroke="#22D3EE" stroke-opacity=".22"/><text x="58" y="19" fill="#CFFAFE">Computer Vision</text></g><animateTransform attributeName="transform" type="scale" from="1" to="1.04" dur=".18s" begin="pillVision.mouseover" end="pillVision.mouseout" fill="freeze"/></g></g>
+      <g id="pillRag" transform="translate(934 404)" opacity="1"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin="2.65s" fill="freeze"/><g transform="translate(42 15)"><g transform="translate(-42 -15)"><rect width="84" height="30" rx="15" fill="#0D9488" fill-opacity=".08" stroke="#2DD4BF" stroke-opacity=".2"/><text x="42" y="19" fill="#CCFBF1">LLM / RAG</text></g><animateTransform attributeName="transform" type="scale" from="1" to="1.04" dur=".18s" begin="pillRag.mouseover" end="pillRag.mouseout" fill="freeze"/></g></g>
+      <g id="pillPandas" transform="translate(510 444)" opacity="1"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin="2.75s" fill="freeze"/><g transform="translate(42 15)"><g transform="translate(-42 -15)"><rect width="84" height="30" rx="15" fill="#7C3AED" fill-opacity=".07" stroke="#A78BFA" stroke-opacity=".18"/><text x="42" y="19" fill="#DDD6FE">Pandas</text></g><animateTransform attributeName="transform" type="scale" from="1" to="1.04" dur=".18s" begin="pillPandas.mouseover" end="pillPandas.mouseout" fill="freeze"/></g></g>
+      <g id="pillDjango" transform="translate(604 444)" opacity="1"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin="2.85s" fill="freeze"/><g transform="translate(42 15)"><g transform="translate(-42 -15)"><rect width="84" height="30" rx="15" fill="#2563EB" fill-opacity=".07" stroke="#60A5FA" stroke-opacity=".18"/><text x="42" y="19" fill="#BFDBFE">Django</text></g><animateTransform attributeName="transform" type="scale" from="1" to="1.04" dur=".18s" begin="pillDjango.mouseover" end="pillDjango.mouseout" fill="freeze"/></g></g>
+      <g id="pillSpring" transform="translate(698 444)" opacity="1"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin="2.95s" fill="freeze"/><g transform="translate(42 15)"><g transform="translate(-42 -15)"><rect width="84" height="30" rx="15" fill="#0891B2" fill-opacity=".07" stroke="#22D3EE" stroke-opacity=".18"/><text x="42" y="19" fill="#CFFAFE">Spring</text></g><animateTransform attributeName="transform" type="scale" from="1" to="1.04" dur=".18s" begin="pillSpring.mouseover" end="pillSpring.mouseout" fill="freeze"/></g></g>
+      <g id="pillAzure" transform="translate(792 444)" opacity="1"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin="3.05s" fill="freeze"/><g transform="translate(40 15)"><g transform="translate(-40 -15)"><rect width="80" height="30" rx="15" fill="#0D9488" fill-opacity=".07" stroke="#2DD4BF" stroke-opacity=".18"/><text x="40" y="19" fill="#CCFBF1">Azure</text></g><animateTransform attributeName="transform" type="scale" from="1" to="1.04" dur=".18s" begin="pillAzure.mouseover" end="pillAzure.mouseout" fill="freeze"/></g></g>
+      <g id="pillAws" transform="translate(882 444)" opacity="1"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin="3.15s" fill="freeze"/><g transform="translate(35 15)"><g transform="translate(-35 -15)"><rect width="70" height="30" rx="15" fill="#059669" fill-opacity=".07" stroke="#34D399" stroke-opacity=".18"/><text x="35" y="19" fill="#D1FAE5">AWS</text></g><animateTransform attributeName="transform" type="scale" from="1" to="1.04" dur=".18s" begin="pillAws.mouseover" end="pillAws.mouseout" fill="freeze"/></g></g>
+      <g id="pillGit" transform="translate(962 444)" opacity="1"><animate attributeName="opacity" from="0" to="1" dur=".35s" begin="3.25s" fill="freeze"/><g transform="translate(35 15)"><g transform="translate(-35 -15)"><rect width="70" height="30" rx="15" fill="#059669" fill-opacity=".07" stroke="#34D399" stroke-opacity=".18"/><text x="35" y="19" fill="#D1FAE5">Git</text></g><animateTransform attributeName="transform" type="scale" from="1" to="1.04" dur=".18s" begin="pillGit.mouseover" end="pillGit.mouseout" fill="freeze"/></g></g>
+    </g>
+
+    <g opacity="1">
+      <animate attributeName="opacity" from="0" to="1" dur=".5s" begin="3.4s" fill="freeze"/>
+      <line x1="510" y1="495" x2="1095" y2="495" stroke="#FFFFFF" stroke-opacity=".07"/>
+      <g transform="translate(510 516)">
+        <circle cx="14" cy="14" r="14" fill="#FFFFFF" fill-opacity=".045" stroke="#FFFFFF" stroke-opacity=".1"/>
+        <path d="M14 6.4a7.7 7.7 0 0 0-2.43 15c.38.07.52-.16.52-.36v-1.5c-2.14.46-2.59-.91-2.59-.91-.35-.89-.85-1.12-.85-1.12-.7-.48.05-.47.05-.47.77.05 1.18.79 1.18.79.68 1.18 1.79.84 2.23.64.07-.5.27-.84.49-1.03-1.71-.19-3.5-.85-3.5-3.8 0-.84.3-1.53.79-2.07-.08-.19-.34-.98.08-2.04 0 0 .64-.21 2.12.79A7.3 7.3 0 0 1 14 10.06c.65 0 1.3.09 1.92.26 1.47-1 2.12-.79 2.12-.79.42 1.06.16 1.85.08 2.04.49.54.79 1.23.79 2.07 0 2.96-1.8 3.6-3.51 3.79.28.24.52.71.52 1.43v2.18c0 .2.14.44.53.36A7.7 7.7 0 0 0 14 6.4Z" fill="#E2E8F0"/>
+        <text x="39" y="18" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5">github.com/dk-moon</text>
+      </g>
+      <g transform="translate(758 516)">
+        <circle cx="14" cy="14" r="14" fill="#FFFFFF" fill-opacity=".045" stroke="#FFFFFF" stroke-opacity=".1"/>
+        <rect x="7.5" y="9" width="13" height="10" rx="2" fill="none" stroke="#E2E8F0" stroke-width="1.4"/>
+        <path d="m8.5 10 5.5 4 5.5-4" fill="none" stroke="#E2E8F0" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="39" y="18" fill="#CBD5E1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11.5">dkmoon0530@gmail.com</text>
+      </g>
+      <circle cx="1087" cy="530" r="4" fill="#22D3EE" filter="url(#glow)"><animate attributeName="r" values="3;4.5;3" dur="2.3s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+</svg>
