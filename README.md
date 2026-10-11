@@ -34,6 +34,8 @@ Computer Vision을 중심으로 멀티모달 AI, LLM/RAG, 음성 기술을 연�
 - 🥉 **AI Champion 대회 3위 수상** — 5억 원 규모의 후속 연구과제 확보
 - 🎬 **넷플릭스 출연**
 
+![AI Champion 대회](./aichampion.jpeg)
+
 ## 💼 Experience
 
 | Period | Organization | Role |
