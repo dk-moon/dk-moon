@@ -21,7 +21,7 @@ I turn research ideas into reliable, usable AI products.
 
 ## 👋 About Me
 
-안녕하세요, **문동규(Dongkyu Moon)**입니다.  
+안녕하세요, 문동규(Dongkyu Moon)입니다.  
 Computer Vision을 중심으로 멀티모달 AI, LLM/RAG, 음성 기술을 연구하며, 모델 실험에 머무르지 않고 서비스와 운영 환경까지 연결하는 일에 관심이 있습니다.
 
 - 🔭 **Current** — DaekyoCNS IT Lab에서 AI Researcher로 근무하고 있습니다.
