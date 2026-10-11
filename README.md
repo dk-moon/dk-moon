@@ -29,6 +29,11 @@ Computer Vision을 중심으로 멀티모달 AI, LLM/RAG, 음성 기술을 연�
 - 🛠️ **Approach** — 아이디어를 작은 코드로 검증하고, 반복 가능한 시스템으로 발전시킵니다.
 - 🌱 **Daily practice** — 꾸준한 학습과 구현을 통해 매일 한 단계씩 개선합니다.
 
+## 🏆 Highlights
+
+- 🥉 **AI Champion 대회 3위 수상** — 5억 원 규모의 후속 연구과제 확보
+- 🎬 **넷플릭스 출연**
+
 ## 💼 Experience
 
 | Period | Organization | Role |
@@ -67,6 +72,7 @@ Computer Vision을 중심으로 멀티모달 AI, LLM/RAG, 음성 기술을 연�
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-gpt--5.4--mini-412991?logo=openai&logoColor=white)](https://platform.openai.com/)
 
 ### ⚙️ Backend & Application
 
